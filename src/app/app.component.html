@@ -1,0 +1,114 @@
+<!--Nav-bar -->
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light separador-nav ">
+    <a class="color-title-nav navbar-brand " href="#">Contrex</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse separador-nav border-nav" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item">
+          <a class="nav-link color-nav" href="#">Ordem de Serviço </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color-nav" href="#">Pontos de Andaime</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color-nav" href="#">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color-nav" href="#">Relatorios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link color-nav" href="#">Cadastros</a>
+        </li>
+      </ul>
+      <li class=" nav-item dropdown offponto">
+        <a class="nav-link dropdown-toggle color-nav" href="#">
+          Olá link
+        </a>
+
+      </li>
+    </div>
+  </nav>
+</div>
+<!--Conteudo-->
+<div class="pesquisa">
+  <nav class="navbar navbar-expand-lg navbar-light  separador-nav">
+    <a class="navbar-brand">Centro de Custos</a>
+
+
+    <div class="espaco">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <form class="form-flex ">
+        <input class="form-control espaco" type="search" placeholder="Pesquisar por Descrição"
+          aria-label="Pesquisar por Descrição">
+        <button class="btn btn-primary espaco" type="submit">+Incluir Centro de Custo</button>
+      </form>
+    </div>
+  </nav>
+</div>
+<!-- Cards -->
+<div class="p-3">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card ">
+        <div class="p-2 d-flex justify-content-between">
+          <div>
+            <h5 class="card-title">Sala 1</h5>
+            <p class="card-text">Código: 123456</p>
+          </div>
+
+          <button type="button" class="btn btn-success m-1">
+            <img style="height: 20px; width: 20px;" src="../assets/img/editar.png" alt="botão para editar card">
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card ">
+        <div class="p-2 d-flex justify-content-between">
+          <div>
+            <h5 class="card-title">Sala 1</h5>
+            <p class="card-text">Código: 123456</p>
+          </div>
+
+          <button type="button" class="btn btn-success m-1">
+            <img style="height: 20px; width: 20px; " src="../assets/img/editar.png" alt="botão para editar card">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Rodapé -->
+  <div class="d-flex justify-content-between pt-3">
+    <div class="total ">
+      <p>X centro de custo</p>
+    </div>
+
+    <nav aria-label="Page navigation example ">
+      <ul class="pagination ">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+</div>
+<router-outlet></router-outlet>

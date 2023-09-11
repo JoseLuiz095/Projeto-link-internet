@@ -1,0 +1,25 @@
+.color-title-nav{
+    color: hsl(208.16deg 21.59% 55.49%);
+}
+.color-nav{
+    color:hsl(210.38deg 48.47% 31.96%) ;
+}
+.offponto{
+    list-style-type: none;
+    
+}
+.separador-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.form-flex{
+    display: flex;
+    
+}
+.espaco{
+    margin: 0 10px;
+    width: 30em;
+}
+
